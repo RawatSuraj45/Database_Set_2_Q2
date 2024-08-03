@@ -1,7 +1,7 @@
 CREATE DATABASE Student ;
 USE Student;
 CREATE TABLE seat(
-	id int ;
+	id int ,
   student = varchar(25);
   PRIMARY KEY(id);
 );
