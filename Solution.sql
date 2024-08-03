@@ -1,15 +1,15 @@
 CREATE DATABASE Student ;
-USE student;
-CREATE TABLE student_detail(
+USE Student;
+CREATE TABLE seat(
 	id int ;
-    student = varchar(25);
-  	PRIMARY KEY(id);
+  student = varchar(25);
+  PRIMARY KEY(id);
 );
-INSERT INTO student_detail(1 , 'Abbot');
-INSERT INTO student_detail(2 , 'Doris');
-INSERT INTO student_detail(3 , 'Emerson');
-INSERT INTO student_detail(4 , 'Green');
-INSERT INTO student_detail(5 , 'Jeames');
+INSERT INTO seat(1 , 'Abbot');
+INSERT INTO seat(2 , 'Doris');
+INSERT INTO seat(3 , 'Emerson');
+INSERT INTO seat(4 , 'Green');
+INSERT INTO seat(5 , 'Jeames');
 
 SELECT * FROM student_detail;
 
